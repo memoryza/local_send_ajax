@@ -1,9 +1,4 @@
-#### 安装依赖
-
-```shell
-npm install
-```
-
+ 注：本项目基于内网的一个公用模块改造而来
 
 #### 生成插件
 
@@ -28,6 +23,7 @@ sh build.sh
 添加本地调试地址
 <img src="./guide/debug_page.png" />
 
+现在仅支持$.ajax发送请求
 #### tips
 
 调试过程中发现bnjs 中API没有你所需要的，直接去该项目下的build/js/bnjs.js 更改，不要关心chrome上的from cache。这个bnjs随时加载最新
