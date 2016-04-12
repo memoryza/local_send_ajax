@@ -130,5 +130,5 @@ window.addEventListener('message', function(e) {
                 $.oldajax(options);
         }
     }
-
+    $ajax = $.oldajax;
 })(jQuery);

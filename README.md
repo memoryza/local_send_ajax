@@ -5,8 +5,6 @@
 ```shell
 sh build.sh
 ```
-<img src="./guide/build.png"/>
-
 
 
 #### 开发
