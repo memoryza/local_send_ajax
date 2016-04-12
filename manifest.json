@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "local_ajax",
+    "version": "0.0.1",
+    "description": "ajax发送远端",
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/icon19.png",
+            "38": "icons/icon38.png"
+        },
+        "default_title": "BNJS模拟器"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "author": "xxx",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["js/content_scripts.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }],
+    "web_accessible_resources": [
+        "js/http.js"
+    ]
+}

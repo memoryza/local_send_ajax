@@ -1,0 +1,79 @@
+.title-bar {
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #cbcbcb;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    max-width: 160px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btn-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.action-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 12px 0 0;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.action-btn-share {
+    background-image: url(../img/share.png);
+}
+
+.action-btn-collected {
+    background-image: url(../img/collected.png);
+}
+
+.action-btn-collection {
+    background-image: url(../img/collection.png);
+}
+
+.action-btn-search {
+    background-image: url(../img/search.png);
+}
+
+.menu-btn {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 7px;
+    top: 8px;
+    background: url(../img/iconfont-menu.png) no-repeat 0 0;
+    background-size: 24px 24px;
+}
+
+.refresh-btn {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    color: #ff4683;
+    font-size: 16px;
+    left: 44px;
+    top: 8px;
+    background: url(../img/iconfont-refresh.png) no-repeat 0 0;
+    background-size: 24px 24px;
+}
+
+
+
+
+
+
+
+
+

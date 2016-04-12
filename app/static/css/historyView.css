@@ -1,0 +1,190 @@
+
+.add-history-tip {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-history-tip p {
+    font-size: 14px;
+}
+
+.add-history-tip .btn {
+    margin-top: 10px;
+}
+
+.add-history-tip .btn a {
+    display: block;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #ff4683;
+    margin: 0 auto;
+}
+
+.add-history {
+    margin: 20px 0 0 0;
+}
+
+.form-item {
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+.form-item label {
+    width: 50px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.form-item .input-wrapper {
+    flex: 1;
+    display: flex;
+}
+
+.form-item .input-wrapper input {
+    display: block;
+    margin-right: 10px;
+    height: 20px;
+    width: 100%;
+    border: 1px solid #848484;
+    outline: none;
+    padding: 2px 4px;
+}
+
+.form-item .input-wrapper input:focus {
+    border-color: #111;
+}
+
+.err-msg {
+    color: #f00;
+    margin: 10px 0 10px 50px;
+}
+
+.add-history .btns {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.add-history .btns a {
+    display: inline-block;
+    color: #fff;
+    background-color: #ff4683;
+    border-radius: 2px;
+    width: 60px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 6px;
+}
+
+.add-history-icon {
+    position: absolute;
+    right: 10px;
+    background: url(../img/iconfont-add.png) no-repeat 0 0;
+    background-size: 22px 22px;
+    width: 22px;
+    height: 22px;
+    top: 4px;
+}
+
+.edit-component-icon {
+    position: absolute;
+    right: 40px;
+    background: url(../img/iconfont-delete.png) no-repeat 0 0;
+    background-size: 22px 22px;
+    width: 22px;
+    height: 22px;
+    top: 3px;
+}
+
+.edit-component-icon.complete {
+    background: url(../img/iconfont-complete.png) no-repeat 0 0;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    top: 6px;
+    right: 40px;
+}
+
+.components-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.components-list li {
+    display: flex;
+    padding: 10px 10px 10px 16px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.components-list li .checkbox {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.components-list li .checkbox i {
+    background: url(../img/iconfont-checkboxunchecked.png) no-repeat 0 0;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.components-list li .checkbox.checked i {
+    background: url(../img/iconfont-checkboxchecked.png) no-repeat 0 0;
+    background-size: 18px 18px;
+}
+
+.components-list li .wp {
+    flex: 1;
+}
+
+.components-list li .delete {
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.components-list li .delete i {
+    background: url(../img/iconfont-x.png) no-repeat 0 0;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.components-list li .name {
+    font-size: 18px;
+}
+
+.components-list li .name.selected {
+    color: green;
+}
+
+.components-list li .url {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #ff4683;
+    line-height: 18px;
+    word-break: break-word;
+}
+
+
+
+
+
+
+
+
+
+

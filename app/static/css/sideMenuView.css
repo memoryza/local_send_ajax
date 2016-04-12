@@ -1,0 +1,51 @@
+
+.side-menu-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    display: flex;
+}
+
+.side-menu {
+    width: 48px;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #ECECEC;
+}
+
+.menu-item {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin: 14px auto 30px;
+}
+
+.menu-component {
+    background: url(../img/iconfont-component.png) no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+.menu-set {
+    background: url(../img/iconfont-set.png) no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+.menu-item:active {
+    background-color: #000;
+}
+
+.side-menu-content {
+    flex: 1;
+    background-color: #fff;
+}
+
+.side-menu-content header {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #ECECEC;
+    position: relative;
+}

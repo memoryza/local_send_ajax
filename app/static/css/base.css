@@ -1,0 +1,13 @@
+body {
+    overflow-y: hidden; 
+}
+
+iframe {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
